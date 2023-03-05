@@ -19,7 +19,7 @@ E-Trader-EIRELI shuttle for VRP
 ## Installation
 
 ```sh
-npm install --save @()/videojs-e-trader-eireli-vrp-shutlle
+npm install --save @elmodemoraes/videojs-e-trader-eireli-vrp-shutlle
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ var videojs = require('video.js');
 // The actual plugin function is exported by this module, but it is also
 // attached to the `Player.prototype`; so, there is no need to assign it
 // to a variable.
-require('@()/videojs-e-trader-eireli-vrp-shutlle');
+require('@elmodemoraes/videojs-e-trader-eireli-vrp-shutlle');
 
 var player = videojs('my-video');
 
@@ -62,7 +62,7 @@ player.eTraderEireliVrpShutlle();
 When using with RequireJS (or another AMD library), get the script in whatever way you prefer and `require` the plugin as you normally would:
 
 ```js
-require(['video.js', '@()/videojs-e-trader-eireli-vrp-shutlle'], function(videojs) {
+require(['video.js', '@elmodemoraes/videojs-e-trader-eireli-vrp-shutlle'], function(videojs) {
   var player = videojs('my-video');
 
   player.eTraderEireliVrpShutlle();
